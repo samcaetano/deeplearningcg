@@ -1,3 +1,4 @@
+# Script adaptado de https://goo.gl/YjYxyW
 from sklearn import tree
 
 features = [[1.9, 50, 1., 0.], [2.0, 55, 1., 0.],
@@ -12,4 +13,4 @@ labels = ['elfo', 'elfo',
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features, labels) # encontra os padroes
 
-print clf.predict([[177, 64, 0.3, 0.]]) # realiza a classificacao
+print clf.predict([[1.77, 64, 0.3, 0.]]) # realiza a classificacao
