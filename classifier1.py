@@ -12,4 +12,4 @@ labels = ['elfo', 'elfo',
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features, labels) # encontra os padroes
 
-print clf.predict([[177, 64, 0.3, 0.]])
+print clf.predict([[177, 64, 0.3, 0.]]) # realiza a classificacao
