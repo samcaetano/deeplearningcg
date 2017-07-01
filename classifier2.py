@@ -41,7 +41,7 @@ img_width, img_height = 150, 150
 
 train_data_dir = 'images/training'
 validation_data_dir = 'images/validation'
-nb_train_samples = 1000
+nb_train_samples = 1000 # numero de amostras para cada classe de objetos
 nb_validation_samples = 400
 epochs = 50
 batch_size = 16
